@@ -4,12 +4,17 @@ SafeWeb is a privacy-aware browser extension that protects users from both phish
 
 ## 🚀 Features
 
-Feature
+
 🚨 Behavior Monitor - Flags phishing patterns, domain spoofing,and coercive click behavior
+
 ⚠️ Page Risk Score - Combines behavior + content to produce a trust score
+
 📰 Misinformation Detector - Highlights false or misleading claims using NLP and fact-checking APIs
+
 ✅ Verify Text - Lets users highlight text and verify its credibility manually
+
 🔗 Verify Link - Checks embedded or selected URLs for risk and trustworthiness
+
 🔍 Trusted Source Suggestion - Offers links to credible sources when possible
 
 ## 🧠 Powered By
@@ -44,11 +49,17 @@ pip install -r ../requirements.txt
 
 ## 📂 Repo Structure
 safeweb-extension/
+
 ├── browser-extension/      # JS extension logic
+
 ├── backend-api/            # Flask backend + NLP/ML
+
 ├── models/                 # ML model checkpoints
+
 ├── data/                   # Sample datasets
+
 ├── docs/                   # Research & planning files
+
 ├── tests/                  # Backend and extension tests
 
 ## 📌 Status
