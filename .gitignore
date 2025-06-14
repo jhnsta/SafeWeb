@@ -1,0 +1,28 @@
+# Logs and environment
+*.log
+.env
+.env.*
+
+# Node modules
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models & Data
+models/*.pkl
+models/*.pt
+data/*.csv
+data/*.json
