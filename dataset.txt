@@ -1,0 +1,9 @@
+Datasets
+https://archive.ics.uci.edu/dataset/967/phiusiil+phishing+url+dataset
+Counts: {1: 134850, 0: 100945}
+
+Tranco List
+https://tranco-list.eu/
+
+Known Brands
+https://www.kaggle.com/datasets/ramjasmaurya/top-2000-forbes-global-companies-in-2022

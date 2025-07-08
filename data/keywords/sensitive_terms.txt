@@ -1,0 +1,9 @@
+password
+ssn
+credit card
+social security
+pin
+account
+verification
+otp
+bank account

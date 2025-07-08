@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "SafeWeb Detector",
+  "version": "1.0",
+  "description": "Detects phishing pages and classifies web risk in real-time.",
+  "permissions": ["contextMenus", "storage", "tabs", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
